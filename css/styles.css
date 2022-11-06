@@ -41,6 +41,22 @@ header{
 
 /*Estilo del body*/
 
+/*Estilo de titulo de paginas*/
+.title{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+.explain{
+    padding: 3rem;
+    font-size: 1.5rem;
+}
+.note{
+    background-color: #B8C4BB;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
 /*Estilo de swipe bar*/
 .swipe_bar{
     height: 40rem;
