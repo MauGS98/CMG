@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Berg';
+    src: local('Berg Western Regular'), local('Berg-Western-Regular'),
+        url('BergWesternRegular.woff2') format('woff2'),
+        url('BergWesternRegular.woff') format('woff'),
+        url('BergWesternRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'TradegothicLT';
+    src: local('TradeGothic LT Bold'), local('TradeGothic-LT-Bold'),
+        url('TradeGothicLTBold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

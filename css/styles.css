@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: Berg;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Estilo del header y barra de navegación*/
+header{
+    height: auto;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #990000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 8px 8px 0 #bbbbbb;
+    position: fixed;
+    top: 0;
+}
+.icon{
+    width: 4rem;
+    height: 4rem;
+    margin: 1.5rem;
+}
+.logo{
+    height: 10rem;
+}
+.separate{
+    height: 12rem;
+}
+
+/*Estilo del body*/
+
+/*Estilo de swipe bar*/
+.swipe_bar{
+    height: 40rem;
+    margin-top: 2rem;
+    background-image: url(../img/harleyRider.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.swipe_bar a{
+    background-color: #83781b;
+    padding: .5rem;
+    border-radius: .5rem;
+    font-size: 1.4rem;
+}
+h1{
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+/*Parrafo de bienvenida*/
+.bienvenida{
+    font-size: 1.4rem;
+    font-family: TradegothicLT;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 4rem;
+}
+.bienvenida h2{
+    font-size: 2.8rem;
+    font-weight: 800;
+    font-family: Berg;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    letter-spacing: .3rem;
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        #B8C4BB 50%
+    );
+}
+.phrase{
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-style: italic;
+    margin: 1rem;
+    color: #83781b;
+}
+
+/*Sección de comunidad*/
+.community{
+    height: 40rem;
+    margin-top: 2rem;
+    background-image: url(../img/rodadasMoto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.community h2{
+    font-size: 2.8rem;
+    margin: 1rem;
+    background-color: #83781b;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+/*comun entre secciones para pushables*/
+.pushable{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.4rem;
+}
+
+/*Común entre todas secciones para hover*/
+.pushable a:hover{
+    color: #83781b;
+}
+.raya{
+    background-color: black;
+    width: 2px;
+}
+
+/*Seccion de tienda en linea*/
+.shop{
+    height: 40rem;
+    margin-top: 2rem;
+    background-image: url(../img/playeraPuesta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.shop h2{
+    font-size: 2.8rem;
+    margin: 1rem;
+    background-color: #83781b;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+/*Sección de mantenimiento*/
+.service{
+    height: 40rem;
+    margin-top: 2rem;
+    background-image: url(../img/motor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.service h2{
+    font-size: 2.8rem;
+    margin: 1rem;
+    background-color: #83781b;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+/*seccion para academia*/
+.academy{
+    height: 40rem;
+    margin-top: 2rem;
+    background-image: url(../img/curvaDeportiva.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.academy h2{
+    font-size: 2.8rem;
+    margin: 1rem;
+    background-color: #83781b;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+/*estilo de footer*/
+footer{
+    background-color: #990000;
+    margin-top: 2rem;
+    padding: 1.5rem 0;
+}
+.footer_pushable{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.footer_pushable a:hover{
+    color: #83781b;
+}
+.raya{
+    background-color: black;
+    width: 2px;
+}
+.add_num{
+    font-family: TradegothicLT;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.add_num p{
+    margin: .5rem;
+}
+
+/*seccion social de footer*/
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social img{
+    margin: 2rem 1rem;
+    height: 3rem;
+    width: 3rem;
+}
+.cc{
+    margin: 1.5rem;
+    text-align: center;
+}
