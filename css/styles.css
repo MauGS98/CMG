@@ -70,6 +70,7 @@ header{
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
 }
 .swipe_bar a{
     background-color: #83781b;
@@ -80,6 +81,10 @@ header{
 h1{
     font-size: 3rem;
     margin: 1rem;
+}
+/*no logro desacelerar la transición*/
+.swipe_bar:hover{
+    background-size: 150%;
 }
 
 /*Parrafo de bienvenida*/
