@@ -74,7 +74,7 @@ header{
 }
 .swipe_bar a{
     background-color: #83781b;
-    padding: .5rem;
+    padding: .8rem;
     border-radius: .5rem;
     font-size: 1.4rem;
 }
@@ -119,6 +119,22 @@ h1{
     color: #83781b;
 }
 
+/*comun entre secciones para pushables*/
+.pushable{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.4rem;
+}
+
+/*Común entre todas secciones para hover*/
+.pushable a:hover{
+    color: #83781b;
+}
+.raya{
+    background-color: black;
+    width: 2px;
+}
+
 /*Sección de comunidad*/
 .community{
     height: 40rem;
@@ -137,24 +153,8 @@ h1{
     font-size: 2.8rem;
     margin: 1rem;
     background-color: #83781b;
-    padding: .5rem;
+    padding: 1rem;
     border-radius: .5rem;
-}
-
-/*comun entre secciones para pushables*/
-.pushable{
-    display: flex;
-    gap: 1rem;
-    font-size: 1.4rem;
-}
-
-/*Común entre todas secciones para hover*/
-.pushable a:hover{
-    color: #83781b;
-}
-.raya{
-    background-color: black;
-    width: 2px;
 }
 
 /*Seccion de tienda en linea*/
@@ -175,7 +175,7 @@ h1{
     font-size: 2.8rem;
     margin: 1rem;
     background-color: #83781b;
-    padding: .5rem;
+    padding: 1rem;
     border-radius: .5rem;
 }
 
@@ -197,7 +197,7 @@ h1{
     font-size: 2.8rem;
     margin: 1rem;
     background-color: #83781b;
-    padding: .5rem;
+    padding: 1rem;
     border-radius: .5rem;
 }
 
@@ -219,7 +219,7 @@ h1{
     font-size: 2.8rem;
     margin: 1rem;
     background-color: #83781b;
-    padding: .5rem;
+    padding: 1rem;
     border-radius: .5rem;
 }
 
