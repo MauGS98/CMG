@@ -82,10 +82,11 @@ h1{
     font-size: 3rem;
     margin: 1rem;
 }
-/*no logro desacelerar la transición*/
+
+/*no logro desacelerar la transición del hover
 .swipe_bar:hover{
     background-size: 150%;
-}
+}*/
 
 /*Parrafo de bienvenida*/
 .bienvenida{
