@@ -4,7 +4,6 @@
 }
 html{
     font-size: 62.5%;
-    font-family: Berg;
 }
 img{
     width: 100%;
@@ -20,26 +19,40 @@ header{
     width: 100%;
     padding: 1rem 0;
     background-color: #990000;
+    color: black;
+    font-size: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 8px 8px 0 #bbbbbb;
     position: fixed;
     top: 0;
+    z-index: 2000;
 }
 .icon{
     width: 4rem;
     height: 4rem;
-    margin: 1.5rem;
 }
 .logo{
     height: 10rem;
+    width: auto;
+}
+.separate-index{
+    height: 16rem;
 }
 .separate{
     height: 12rem;
 }
 
 /*Estilo del body*/
+
+body{
+    font-family: Berg;
+}
+
+.carousel{
+    max-height: 45rem;
+}
 
 /*Estilo de titulo de paginas*/
 .title{
@@ -96,7 +109,6 @@ h1{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 4rem;
 }
 .bienvenida h2{
     font-size: 2.8rem;
@@ -133,6 +145,9 @@ h1{
 .raya{
     background-color: black;
     width: 2px;
+}
+.hvr:hover{
+    color:#bbbbbb;
 }
 
 /*Sección de comunidad*/
