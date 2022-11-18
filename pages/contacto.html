@@ -58,11 +58,36 @@
     <!--Separación-->
     <div class="separate"></div>
 
-    <section class="title">
+    <section class="title mb-5">
         <h1>aclaraciones, dudas o comentarios</h1>
         <h2>te dejamos un espacio para que puedas estar en contacto con nosotros</h2>
     </section>
     
+    <form class="container">
+        <div class="mb-3 h3">
+            <label for="nombreContacto" class="form-label">Nombre</label>
+            <input type="text" class="form-control h4" id="nombreContacto">
+          </div>
+        <div class="mb-3 h3">
+          <label for="emailContacto" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="emailContacto" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">No compartiremos información personal con nadie</div>
+        </div>
+        <div class="mb-3 h3">
+            <label for="telefonoContacto" class="form-label">Telefono</label>
+            <input type="phone" class="form-control" id="telefonoContacto" aria-describedby="phoneHelp">
+          </div>
+        <div class="mb-3 h3">
+          <label for="mensajeContacto" class="form-label">dejanos un mensaje</label>
+          <input type="text" class="form-control h4" id="mensajeContacto">
+        </div>
+        <!-- <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div> -->
+        <button type="submit" class="btn boton">enviar</button>
+    </form>
+
     <footer>
         <section>
          <div class="footer_pushable">
