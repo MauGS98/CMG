@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Estilo del header y barra de navegación*/
+header{
+    height: auto;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #990000;
+    color: black;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 8px 8px 0 #bbbbbb;
+    position: fixed;
+    top: 0;
+    z-index: 2000;
+}
+.icon{
+    width: 4rem;
+    height: 4rem;
+}
+.logo{
+    height: 10rem;
+    width: auto;
+}
+.separate-index{
+    height: 18rem;
+}
+.separate{
+    height: 14rem;
+}
+
+/*Estilo del body*/
+
+body{
+    font-family: Berg;
+}
+
+.carousel{
+    max-height: 45rem;
+}
+
+/*Estilo de titulo de paginas*/
+.title{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+.explain{
+    padding: 3rem;
+    font-size: 1.5rem;
+}
+.note{
+    background-color: #B8C4BB;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+/*Estilo de swipe bar*/
+.swipe_bar{
+    height: 40rem;
+    margin-top: 2rem;
+    background-image: url(../img/harleyRider.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+.swipe_bar a{
+    background-color: #83781b;
+    padding: .8rem;
+    border-radius: .5rem;
+    font-size: 1.4rem;
+}
+h1{
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+/*no logro desacelerar la transición del hover
+.swipe_bar:hover{
+    background-size: 150%;
+}*/
+
+/*Parrafo de bienvenida*/
+.bienvenida{
+    font-size: 1.4rem;
+    font-family: TradegothicLT;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.bienvenida h2{
+    font-size: 2.8rem;
+    font-weight: 800;
+    font-family: Berg;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    letter-spacing: .3rem;
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        #B8C4BB 50%
+    );
+}
+.bienvenida a{
+    font-family: Berg;
+    font-size: 2rem;
+    margin: 1rem;
+    background-color: #83781b;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.bienvenida a:hover{
+    color: #bbbbbb;
+}
+.phrase{
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-style: italic;
+    margin: 1rem;
+    color: #83781b;
+}
+
+/*comun entre secciones para pushables*/
+.pushable{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.4rem;
+}
+
+/*Común entre todas secciones para hover*/
+.pushable a:hover{
+    color: #83781b;
+}
+.raya{
+    background-color: black;
+    width: 2px;
+}
+.hvr:hover{
+    color:#bbbbbb;
+}
+
+/*Sección de comunidad*/
+.community{
+    height: 40rem;
+    margin-top: 2rem;
+    background-image: url(../img/rodadasMoto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.community h2{
+    font-size: 2.8rem;
+    margin: 1rem;
+    background-color: #83781b;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+/*Seccion de tienda en linea*/
+.shop{
+    height: 40rem;
+    margin-top: 2rem;
+    background-image: url(../img/playeraPuesta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.shop h2{
+    font-size: 2.8rem;
+    margin: 1rem;
+    background-color: #83781b;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+/*Sección de mantenimiento*/
+.service{
+    height: 40rem;
+    margin-top: 2rem;
+    background-image: url(../img/motor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.service h2{
+    font-size: 2.8rem;
+    margin: 1rem;
+    background-color: #83781b;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+/*seccion para academia*/
+.academy{
+    height: 40rem;
+    margin-top: 2rem;
+    background-image: url(../img/curvaDeportiva.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.academy h2{
+    font-size: 2.8rem;
+    margin: 1rem;
+    background-color: #83781b;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+/* Estilos de cartas de mantenimiento */
+.manttoGrid{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.manttoTitulo{
+    color: white;
+    background-color: #990000;
+    padding: 2rem;
+    margin: 3rem;
+    border-radius: 1rem;
+}
+.MD{
+    font-family: TradeGothicLT;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.manttoList{
+    font-size: 1.2rem;
+}
+
+/* Responsive design para pantallas medias y grandes */
+@media screen and (min-width: 768px){
+.manttoGrid {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    gap: 2rem;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+    "mantto1 mantto1desc mantto1desc"
+    "mantto2desc mantto2desc mantto2"
+    "mantto3 mantto3desc mantto3desc";
+}
+.mantto1 { 
+    grid-area: mantto1; 
+    padding: 2rem;
+    color: white;
+    background-color: #83781b;
+    border-radius: 2rem;
+}
+.mantto2 { 
+    grid-area: mantto2; 
+    padding: 2rem;
+    color: white;
+    background-color: #83781b;
+    border-radius: 2rem;
+}
+.mantto3 { 
+    grid-area: mantto3; 
+    padding: 2rem;
+    color: white;
+    background-color: #83781b;
+    border-radius: 2rem;
+}
+.mantto1desc { 
+    grid-area: mantto1desc; 
+}
+.mantto2desc { 
+    grid-area: mantto2desc; 
+}
+.mantto3desc { 
+    grid-area: mantto3desc; 
+}
+.manttoList{
+    font-family: TradegothicLT;
+    font-size: 1.2rem;
+}
+}
+
+/* Estilo de cards en academia */
+.cursos_tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img{
+    height: 20rem;
+}
+
+@media screen and (min-width: 768px){
+.cursos_tarjeta{
+    flex-direction: row;
+    justify-content: space-around;
+}
+}
+
+/* estilo de boton en contacto */
+.boton{
+    font-size: 1.4rem;
+    background-color: #83781b;
+}
+.boto:hover{
+    border: #83781b;
+    /* No logro hacer que se muestre el borde del boton */
+}
+  
+/*estilo de footer*/
+footer{
+    background-color: #990000;
+    margin-top: 2rem;
+    padding: 1.5rem 0;
+}
+.footer_pushable{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.footer_pushable a:hover{
+    color: #83781b;
+}
+.raya{
+    background-color: black;
+    width: 2px;
+}
+.add_num{
+    font-family: TradegothicLT;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.add_num p{
+    margin: .5rem;
+}
+
+/*seccion social de footer*/
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social img{
+    margin: 2rem 1rem;
+    height: 3rem;
+    width: 3rem;
+}
+.cc{
+    margin: 1.5rem;
+    text-align: center;
+}
