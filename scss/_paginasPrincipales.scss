@@ -1,0 +1,114 @@
+
+/*Paginas principales:
+-aboutus
+-academia
+-comunidad
+-mantenimiento
+-tienda*/
+
+/*Estilo de titulo de paginas*/
+.title{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+.explain{
+    padding: 3rem;
+    font-size: 1.5rem;
+}
+.note{
+    background-color:  #bbbbbb;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+/* Estilo de cards en academia */
+.cursos_tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img{
+    height: 20rem;
+}
+
+@media screen and (min-width: 768px){
+.cursos_tarjeta{
+    flex-direction: row;
+    justify-content: space-around;
+}
+}
+
+/* Estilos de cartas de mantenimiento */
+.manttoGrid{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.manttoTitulo{
+    color: white;
+    background-color: #990000;
+    padding: 2rem;
+    margin: 3rem;
+    border-radius: 1rem;
+}
+.MD{
+    font-family: TradeGothicLT;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.manttoList{
+    font-size: 1.2rem;
+}
+
+/* Responsive design para pantallas medias y grandes */
+@media screen and (min-width: 768px){
+    .manttoGrid {  
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2fr 2fr 2fr;
+        gap: 2rem;
+        grid-auto-flow: row;
+        justify-items: center;
+        align-items: center;
+        grid-template-areas:
+        "mantto1 mantto1desc mantto1desc"
+        "mantto2desc mantto2desc mantto2"
+        "mantto3 mantto3desc mantto3desc";
+    }
+    .mantto1 { 
+        grid-area: mantto1; 
+        padding: 2rem;
+        color: white;
+        background-color: #83781b;
+        border-radius: 2rem;
+    }
+    .mantto2 { 
+        grid-area: mantto2; 
+        padding: 2rem;
+        color: white;
+        background-color: #83781b;
+        border-radius: 2rem;
+    }
+    .mantto3 { 
+        grid-area: mantto3; 
+        padding: 2rem;
+        color: white;
+        background-color: #83781b;
+        border-radius: 2rem;
+    }
+    .mantto1desc { 
+        grid-area: mantto1desc; 
+    }
+    .mantto2desc { 
+        grid-area: mantto2desc; 
+    }
+    .mantto3desc { 
+        grid-area: mantto3desc; 
+    }
+    .manttoList{
+        font-family: TradegothicLT;
+        font-size: 1.2rem;
+    }
+    }

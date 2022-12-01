@@ -1,0 +1,43 @@
+
+/*Estilos compartidos globales*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Estilo del body*/
+body{
+    font-family: Berg;
+}
+.carousel{
+    max-height: 45rem;
+}
+
+/*comun entre secciones para pushables*/
+.pushable{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.4rem;
+}
+
+/*Común entre todas secciones para hover*/
+.pushable a:hover{
+    color: #83781b;
+}
+.raya{
+    background-color: black;
+    width: 2px;
+}
+.hvr:hover{
+    color:#bbbbbb;
+}

@@ -1,0 +1,160 @@
+
+/*Parrafo de bienvenida*/
+.bienvenida{
+    font-size: 1.4rem;
+    font-family: TradegothicLT;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.bienvenida h2{
+    font-size: 2.8rem;
+    font-weight: 800;
+    font-family: Berg;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    letter-spacing: .3rem;
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        #B8C4BB 50%
+    );
+}
+.bienvenida a{
+    font-family: Berg;
+    font-size: 2rem;
+    margin: 1rem;
+    background-color: #83781b;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.bienvenida a:hover{
+    color: #bbbbbb;
+}
+.phrase{
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-style: italic;
+    margin: 1rem;
+    color: #83781b;
+}
+
+/*Sección de comunidad*/
+.community{
+    height: 40rem;
+    margin-top: 2rem;
+    background-image: url(../img/rodadasMoto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.community h2{
+    font-size: 2.8rem;
+    margin: 1rem;
+    background-color: #83781b;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+/*Seccion de tienda en linea*/
+.shop{
+    height: 40rem;
+    margin-top: 2rem;
+    background-image: url(../img/playeraPuesta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.shop h2{
+    font-size: 2.8rem;
+    margin: 1rem;
+    background-color: #83781b;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+/*Sección de mantenimiento*/
+.service{
+    height: 40rem;
+    margin-top: 2rem;
+    background-image: url(../img/motor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.service h2{
+    font-size: 2.8rem;
+    margin: 1rem;
+    background-color: #83781b;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+/*seccion para academia*/
+.academy{
+    height: 40rem;
+    margin-top: 2rem;
+    background-image: url(../img/curvaDeportiva.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    h2[
+        font-size: 2.8rem;
+        margin: 1rem;
+        background-color: #83781b;
+        padding: 1rem;
+        border-radius: .5rem;
+    ]
+}
+
+/*Estilo de swipe bar*/
+.swipe_bar{
+    height: 40rem;
+    margin-top: 2rem;
+    background-image: url(../img/harleyRider.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+.swipe_bar a{
+    background-color: #83781b;
+    padding: .8rem;
+    border-radius: .5rem;
+    font-size: 1.4rem;
+}
+h1{
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+/*no logro desacelerar la transición del hover
+.swipe_bar:hover{
+    background-size: 150%;
+}*/
