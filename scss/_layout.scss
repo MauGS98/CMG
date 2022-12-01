@@ -4,13 +4,13 @@ header{
     height: auto;
     width: 100%;
     padding: 1rem 0;
-    background-color: crimson;
+    background-color: $cr;
     color: black;
     font-size: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 8px 8px 0 #bbbbbb;
+    box-shadow: 0 8px 8px 0 %gr;
     position: fixed;
     top: 0;
     z-index: 2000;
@@ -33,16 +33,16 @@ header{
 /* estilo de boton en contacto */
 .boton{
     font-size: 1.4rem;
-    background-color: #83781b;
+    background-color: $ve;
 }
-.boto:hover{
-    border: #83781b;
+.boton:hover{
+    border: $ve;
     /* No logro hacer que se muestre el borde del boton */
 }
 
 /*estilo de footer*/
 footer{
-    background-color: #990000;
+    background-color: $cr;
     margin-top: 2rem;
     padding: 1.5rem 0;
 }
@@ -54,7 +54,7 @@ footer{
     padding-bottom: 1rem;
 }
 .footer_pushable a:hover{
-    color: #83781b;
+    color: $ve;
 }
 .raya{
     background-color: black;

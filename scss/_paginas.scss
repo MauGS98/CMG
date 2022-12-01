@@ -17,7 +17,7 @@
     font-size: 1.5rem;
 }
 .note{
-    background-color:  #bbbbbb;
+    background-color: $gr;
     padding: 2rem;
     margin-top: 1rem;
 }
@@ -48,7 +48,7 @@
 }
 .manttoTitulo{
     color: white;
-    background-color: #990000;
+    background-color: $cr;
     padding: 2rem;
     margin: 3rem;
     border-radius: 1rem;
@@ -81,21 +81,21 @@
         grid-area: mantto1; 
         padding: 2rem;
         color: white;
-        background-color: #83781b;
+        background-color: $ve;
         border-radius: 2rem;
     }
     .mantto2 { 
         grid-area: mantto2; 
         padding: 2rem;
         color: white;
-        background-color: #83781b;
+        background-color: $ve;
         border-radius: 2rem;
     }
     .mantto3 { 
         grid-area: mantto3; 
         padding: 2rem;
         color: white;
-        background-color: #83781b;
+        background-color: $ve;
         border-radius: 2rem;
     }
     .mantto1desc { 
