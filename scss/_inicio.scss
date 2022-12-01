@@ -54,11 +54,7 @@
     justify-content: center;
     text-align: center;
     h2{
-        font-size: 2.8rem;
-        margin: 1rem;
-        background-color: $ve;
-        padding: 1rem;
-        border-radius: .5rem;
+        @include h2cards;
     }
 }
 
@@ -66,7 +62,7 @@
 .shop{
     height: 40rem;
     margin-top: 2rem;
-    background-image: url(../img/playeraPuesta.png);
+    background-image: url(../img/playeraPuesta.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -76,11 +72,7 @@
     justify-content: center;
     text-align: center;
     h2{
-        font-size: 2.8rem;
-        margin: 1rem;
-        background-color: $ve;
-        padding: 1rem;
-        border-radius: .5rem;
+        @include h2cards;
     }
 }
 
@@ -98,11 +90,7 @@
     justify-content: center;
     text-align: center;
     h2{
-        font-size: 2.8rem;
-        margin: 1rem;
-        background-color: $ve;
-        padding: 1rem;
-        border-radius: .5rem;
+        @include h2cards;
     }
 }
 
@@ -120,11 +108,7 @@
     justify-content: center;
     text-align: center;
     h2{
-        font-size: 2.8rem;
-        margin: 1rem;
-        background-color: $ve;
-        padding: 1rem;
-        border-radius: .5rem;
+        @include h2cards;
     }
 }
 

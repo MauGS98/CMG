@@ -1,5 +1,7 @@
 @charset "UTF-8";
-/*Colores para Crimson*/ /*Estilos compartidos globales*/
+/*Colores para Crimson*/
+/*Mixins*/
+/*Estilos compartidos globales*/
 * {
   margin: 0;
   padding: 0;
@@ -210,7 +212,7 @@ footer {
 .shop {
   height: 40rem;
   margin-top: 2rem;
-  background-image: url(../img/playeraPuesta.png);
+  background-image: url(../img/playeraPuesta.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
