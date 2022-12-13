@@ -278,9 +278,7 @@ footer {
 .swipe_bar {
   height: 40rem;
   margin-top: 2rem;
-  background-image: url(../img/harleyRider.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #bbbbbb;
   background-size: cover;
   display: flex;
   flex-direction: column;
